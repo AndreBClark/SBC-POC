@@ -59,7 +59,11 @@
           </v-col>
         </v-row>
       </template>
-      <canvas id="canvas" width="1500" height="1000"></canvas>
+      <img :src="link" width="1500" height="1000">
+      <canvas 
+        id="canvas" width="1500" height="1000"
+        style="dislay: none" 
+        ></canvas>
     </div>
   </v-container>
 </template>
