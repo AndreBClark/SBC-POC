@@ -104,6 +104,7 @@ export default {
     this.ctx = this.canvas.getContext('2d');
     this.ctx.drawImage(this.img, 0, 0);
     this.img.style.display = 'none';
+    this.ctx.drawImage(this.img, 0, 0, this.canvas.width, this.canvas.height);
   },
   computed: {
     canvas(){
