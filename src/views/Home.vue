@@ -3,6 +3,7 @@
     <div class="menu">
       <v-list color="#eee">
         <v-text-field
+        :value="colors"
         label="Number of colors"
         v-model="colors"
         outlined
@@ -10,6 +11,7 @@
         >
         </v-text-field>
         <v-text-field
+        :value="tolerance"
         label="threshold"
         v-model="tolerance"
         outlined
@@ -17,6 +19,7 @@
         >
         </v-text-field>
         <v-text-field
+          :value="link"
         label="link"
         v-model="link"
         outlined
